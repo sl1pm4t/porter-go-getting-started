@@ -10,6 +10,7 @@ import (
 )
 
 func main() {
+	fmt.Println("starting this")
 	port := os.Getenv("PORT")
 	if port == "" {
 		fmt.Println("$PORT must be set")
